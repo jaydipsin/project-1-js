@@ -1,0 +1,78 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+button{
+    padding: 8px 20px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+body{
+    background-color: #121212;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+h1{
+    color: aliceblue;
+}
+.input{
+    letter-spacing: 1px;
+    border: none;
+    width: 300px;
+    padding: 5px 0;
+    border-radius: 7px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    padding-left: 20px;
+}
+.input-filed{
+    gap: 30px;
+    display: flex;
+    align-items: center;
+}
+.submitbtn{
+    background-color: rgba(255, 208, 0, 0.522);
+}
+.submitbtn:hover{
+    background-color: rgba(255, 208, 0, 1);
+}
+.content{
+    height: 50vh;
+}
+.task{
+    margin-top: 3rem;
+}
+
+
+/* *list of task  */
+.list::marker{
+    color: white;
+}
+.task-added{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 0;
+}
+.task-added li{
+    font-size: 20px;
+    color: aliceblue;
+    list-style-type: circle;
+}
